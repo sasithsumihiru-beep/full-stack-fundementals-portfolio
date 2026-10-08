@@ -1,0 +1,84 @@
+body{
+    background-color: lightgray;
+}
+
+.profile-picture{
+    background-color: rgb(4,155,72);
+    color:white;
+    text-align: center;
+    height: 200px;
+
+}
+.profile-pic{
+    width: 75px;
+    border-radius: 100%;
+
+}
+h2,p{
+    margin: 0;
+}
+.about-me{
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.skill{
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.project{
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.contact-me{
+    margin-top: 15px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.connect-with-me{
+    margin-top: 15px;
+    background-color:rgb(4,155,72);
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border-color: lightslategray;
+}
+th{
+    background-color: rgb(4,155,72);
+    color: white;
+}
+th,td{
+    padding: 15px;
+}
+.submit-button{
+    margin-top: 15px;
+    background-color: rgb(4,155,72);
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}

@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My portfolio</title>
-    </head>
 
-    <body>
+<head>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="profile-picture">
+        <img src="DSC_0705 copy.jpg" alt="Profile" class="profile-pic">
         <h1>Sasith Sumihiru</h1>
         <p>i am a university student</p>
+    </header>
+
+    <div class="about-me">
         <h2>About Me</h2>
         <p>i am 21 years old live in negombo and watch pro wrestling as a hobby </p>
-    
+    </div>
+    <div class="skill">
         <h2>skils</h2>
         <ul>
             <li>python</li>
             <li>videography</li>
             <li>communication</li>
         </ul>
+    </div>
+    <div class="project">
         <table border="1">
             <tr>
                 <th>project<br> name</th>
@@ -24,28 +34,44 @@
             </tr>
             <tr>
                 <td>smart hospital system</td>
-                <td>a menu diven smart hospital<br> patient and resource allocation <br>system</td>
+                <td>a menu diven smart hospital patient and resource allocation system</td>
                 <td>vs code <br> C</td>
             </tr>
             <tr>
                 <td>movie booking system</td>
-                <td>a movie system that book tickets<br> and save detail of the ticket </td>
+                <td>a movie system that book tickets and save detail of the ticket </td>
                 <td>vs code <br> C</td>
             </tr>
         </table>
+    </div>
+    <div class="contact-me">
         <h2>contact me</h2>
         <form>
-            <lable for "name"> Name:</lable><br>
-            <input type="text" id="name" ><br>
-            <label for "email">Email:</label><br>
-            <input type="text" id="email" ><br>
-            <label for "massage">Massage:</label>
-            <input type ="text" id="massage"><br>
+            <lable for ="name"> Name:</lable><br>
+            <input type="text" id="name"><br>
+            <label for ="email">Email:</label><br>
+            <input type="text" id="email"><br>
+            <label for ="massage">Massage:</label>
+            <textarea id="massage"></textarea><br>
+            <input class="submit-button" type="submit" value="submit">
         </form>
-        <h2>footer</h2>
-        <hr/>
-        <a herf="https://github.com/account">github</a>
+    </div>
+    <div class="connect-with-me ">
+        <h2>connect with me</h2>
+        <a href="https://github.com/account">github</a>
+    </div>
 
 
+<<<<<<< HEAD
     </body>
 </html>
+=======
+
+
+
+
+
+</body>
+
+</html>
+>>>>>>> 93a5724 (upgraded my poerfolio)
